@@ -1,0 +1,57 @@
+.Draggable {
+    position: relative;
+}
+
+.Draggable.vertTranslateUp {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: translateY(-500px);
+}
+
+.Draggable.vertTranslateDown {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: translateY(-40px);
+}
+.tab {
+    background-color: rgb(201, 196, 196);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.drag-button {
+    background-color: rgb(129, 129, 129);
+    border-radius: 15px;
+    padding: 7px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.content {
+    height: 800px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.each-sentence {
+    height: 40px;
+    font-size: 20px;
+    width: 100%;
+    background-color: unset;
+    color: gray;
+}
+
+.each-sentence:hover {
+    color: black;
+}
+
+.return-button {
+    margin: 40px;
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+}
